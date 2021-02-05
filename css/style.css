@@ -1,0 +1,157 @@
+body{
+    background-color: #151516;
+    background-position: center;
+    background-size: 100%;
+    box-sizing: border-box;
+
+  }
+
+.logo{
+    text-align: center;
+    margin: auto;
+    padding-top: 40px;
+    color:#14A76C;
+    text-shadow: 1px 1px 5px #FFE400;
+}
+.budgetBalance h1{
+    color:#14A76C;
+    font-size: 40px;
+}
+
+h1{
+    color:#14A76C;
+    font-size: 20px;
+}
+
+#incomingsSum{
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.budget{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+}
+
+html{
+    font-size: 50%;
+}
+.budget{
+    min-height: 40rem;
+    width: 500px;
+    margin: 0 auto;
+
+}
+
+.imputBtm{
+    color: rebeccapurple;
+}
+
+.budgetIncomes{
+    background-color:  #151617;
+    border: #14A76C solid 1px;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 0;
+    position: relative;
+    
+}
+.suma{
+    position: absolute;
+    bottom: 10px;
+    color:#14A76C;
+    margin-left: 5px;
+  }
+ 
+ .budgetOutcomes{
+    background-color: #151617;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 0;
+    position: relative;
+    border: #14A76C solid 1px;
+}
+
+.sumTwo{
+    position: absolute;
+    bottom: 10px;
+    font-size: 20px;
+    color:#14A76C;
+    /* margin-left: 5px; */
+  }
+.budgetBalance{
+    margin-top: 6rem;
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+}
+
+.input{
+    display: block;
+    position: relative;
+    padding-right: 2rem;
+}
+.input1{
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 0 2 rem;
+    background-color: rgb(#fff,0.5);
+    border: none;
+    width: 15 rem;
+    display: block;
+    border: 0.3rem solid #151617;
+}
+
+.input1:focus{
+    outline: none;
+    border: 0.3rem solid FF652F;
+}
+.input1::-webkit-input-placeholder{
+    color: #151617;
+}
+
+.imputs_btn{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn {
+    background-color: #14A76C; 
+    color: #151617; 
+    border: 2px solid #4CAF50;
+    width: 100px;
+    height: 30px;
+  }
+  
+  .btn:hover {
+    background-color: #14A76C;
+    color: white;
+  }
+.deleteBtn{
+    background-color:red ;
+}
+
+.editBtn{
+    background-color: #14A76C;
+}
+@media (min-width: 768px) {
+    html, body {
+        height: 100%;
+      }
+      
+    html{
+
+        font-size: 62.5%;
+    }
+}
