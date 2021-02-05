@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="css/reset.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>Home budget</title>
+</head>
+<body>
+    <header class ="header">    
+         <div class="logo">
+             <i class="fas fa-coins fa-6x"></i>
+         </div>
+    </header>
+    <section class="budgetBalance">
+        <h1 class="sumUp">Możesz jeszcze wydać:</h1>
+    </section>
+    <main class="budget">
+        <section class="budgetIncomes">
+            <ul class="inputs">
+                <h1>Przychody</h1>
+                <li class="input">
+                    <input type="text" name="value" id="newName" class="input1" placeholder="Nazwa przychodu">
+                </li>
+                <li class="input">
+                    <input type="number" name="value" id="newAmount" class="input1" placeholder="Kwota">
+                </li>
+                <span class="addBtn">
+                    <button id="addIncoming" class="btn" value="check">Dodaj</button>
+                </span>
+            </ul>       
+            <div>               
+                 <ul id="incomingsList"></ul>      
+                 <div id="incomingsSum" class="suma"></div>
+            </div>            
+            
+        </section>
+        <section class="budgetOutcomes">
+            <ul class="inputs">
+                <h1>Wydatki</h1>
+                <li class="input">
+                    <input type="text" name="value" id="newName2" class="input1" placeholder="Nazwa wydatku">
+                </li>
+                <li class="input">
+                    <input type="number" name="value" id="newAmount2" class="input1" placeholder="Kwota">
+                </li>
+                <span class="imputs_btn">
+                    <button  id= "addOutgoing"class="btn" value="check">Dodaj</button>
+                </span>
+            </ul>
+              <div>               
+                    <ul id="outgoingsList"></ul>      
+                    <div id="outgoingsSum" class="sumTwo"></div>
+               </div>            
+        </section>
+    </main>
+ <script src="js/index.js"></script>
+</body>
+</html>
